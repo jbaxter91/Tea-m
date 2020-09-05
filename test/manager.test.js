@@ -7,7 +7,8 @@ describe("Manager", () =>
     {
         it("should return the name of the Manager", () => {
             const name = "Tom";
-            const result = new Manager(1,name,"email").getName();
+            const manager = new Manager(1,name,"email");
+            const result = manager.getName();
             
             expect(result).toEqual(name);
         });
