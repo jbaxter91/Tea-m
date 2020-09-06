@@ -7,7 +7,7 @@ describe("Manager", () =>
     {
         it("should return the name of the Manager", () => {
             const name = "Tom";
-            const manager = new Manager(1,name,"email");
+            const manager = new Manager(1,name,"email",5);
             const result = manager.getName();
             
             expect(result).toEqual(name);
@@ -18,7 +18,7 @@ describe("Manager", () =>
     {
         it("should return the id of the Manager", () => {
             const id = 1;
-            const result = new Manager(id,"Tom","email").getID();
+            const result = new Manager(id,"Tom","email",5).getID();
 
             expect(result).toEqual(id);
         });
@@ -28,7 +28,7 @@ describe("Manager", () =>
     {
         it("should return the email of the Manager", () => {
             const email = "Tom@TomTom.com";
-            const result = new Manager(1,"Tom",email).getEmail();
+            const result = new Manager(1,"Tom",email,5).getEmail();
 
             expect(result).toEqual(email);
         });
@@ -38,9 +38,19 @@ describe("Manager", () =>
     {
         it("should return the role of the Manager", () => {
             const role = "Manager";
-            const result = new Manager(1,"Tom","email").getRole();
+            const result = new Manager(1,"Tom","email",5).getRole();
 
             expect(result).toEqual(role);
+        });
+    });
+
+    describe("getOfficeNumber", () =>
+    {
+        it("should return the Office Number of the Manager", () => {
+            const officeNumber = 5;
+            const result = new Manager(1,"Tom","email", officeNumber).getOfficeNumber();
+
+            expect(result).toEqual(officeNumber);
         });
     });
 
