@@ -1,9 +1,23 @@
 [
     {
-        "id": "dsaf",
-        "name": "Tom",
-        "email": "sdf",
+        "id": "1",
+        "name": "John",
+        "email": "john@john.com",
         "role": "Manager",
-        "officeNum": "5"
+        "officeNum": "1"
+    },
+    {
+        "id": "2",
+        "name": "Bill",
+        "email": "bill@bill.com",
+        "role": "Engineer",
+        "gitHub": "bill54"
+    },
+    {
+        "id": "3",
+        "name": "Tim",
+        "email": "tim@timmy.com",
+        "role": "Intern",
+        "school": "MIT"
     }
 ]
