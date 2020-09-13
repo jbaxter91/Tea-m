@@ -2,22 +2,29 @@
     {
         "id": "1",
         "name": "John",
-        "email": "john@john.com",
+        "email": "jbaxter@a-zdarts.com",
         "role": "Manager",
-        "officeNum": "1"
+        "officeNum": "117"
     },
     {
         "id": "2",
-        "name": "Bill",
-        "email": "bill@bill.com",
+        "name": "Tom",
+        "email": "tom@tom.com",
         "role": "Engineer",
-        "gitHub": "bill54"
+        "gitHub": "tomhon"
     },
     {
         "id": "3",
-        "name": "Tim",
-        "email": "tim@timmy.com",
+        "name": "Sally",
+        "email": "sally@what.com",
         "role": "Intern",
         "school": "MIT"
+    },
+    {
+        "id": "4",
+        "name": "Timmy",
+        "email": "n/a",
+        "role": "Engineer",
+        "gitHub": "n/a"
     }
 ]
